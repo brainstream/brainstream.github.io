@@ -4,7 +4,7 @@
         AnyComment = window.AnyComment || []; AnyComment.Comments = [];
         AnyComment.Comments.push({
             "root": "anycomment-app",
-            "app_id": {{ anycomment.app_id }},
+            "app_id": {{ site.anycomment.app_id }},
             "language": "ru"
         })
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
@@ -13,5 +13,3 @@
         sa.parentNode.insertBefore(s, s.nextSibling);
     </script>
 {%- endif -%}
-
-
