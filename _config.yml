@@ -34,8 +34,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
-disqus:
-  shortname: brainstream-dev
+# disqus:
+#   shortname: brainstream-dev
+
+anycomment:
+  app_id: 1426
 
 # Exclude from processing.
 # The following items will not be processed, by default.
